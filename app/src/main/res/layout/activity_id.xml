@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/artboard_2"
+    tools:context=".id">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/colorPrimary"
+        app:title="Assign Employee ID"
+        app:titleMarginStart="30sp"
+        app:titleTextColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_height="50sp"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:paddingLeft="20sp"
+        android:layout_margin="20sp"
+        android:background="@drawable/rounded_white"
+        android:inputType="text"
+        android:hint="Employee ID"
+        />
+
+    <EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_white"
+    android:layout_height="50sp"
+    android:textSize="15sp"
+    android:paddingLeft="20sp"
+    android:layout_margin="20sp"
+    android:hint="Employee Name"
+    android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/doj"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_white"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:paddingLeft="20sp"
+        android:layout_margin="20sp"
+        android:hint="Date of Joining (DD/MM/YY)"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:onClick="assign"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:layout_margin="20sp"
+        android:background="@drawable/rounded_button"
+        android:text="Assign ID" />
+    <Button
+        android:id="@+id/view"
+        android:onClick="empView"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:layout_margin="20sp"
+        android:background="@drawable/rounded_button"
+        android:text="View Employees" />
+
+
+</LinearLayout>

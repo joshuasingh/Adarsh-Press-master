@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artboard_1"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="120sp"
+        android:text="ADMIN LOGIN"
+        android:background="@drawable/rounded_button"
+        android:onClick="adminLogin"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="300sp"
+        android:text="EMPLOYEE LOGIN"
+        android:onClick="employeeLogin"
+        android:background="@drawable/rounded_button"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

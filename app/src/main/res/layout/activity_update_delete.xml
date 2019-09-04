@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/artboard_1"
+    android:layout_height="match_parent"
+    tools:context=".updateDelete">>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updateDelete">
+
+    <TextView
+        android:id="@+id/key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/item"
+        android:layout_margin="20sp"
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textSize="15sp"
+        android:hint="Item Name"
+        android:background="@drawable/rounded_white"
+        />
+
+    <EditText
+        android:id="@+id/typeUnit"
+        android:layout_margin="20sp"
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:inputType="number"
+        android:hint="No. of Units"
+        android:background="@drawable/rounded_white"
+        />
+
+    <Spinner
+        android:id="@+id/unit"
+        android:padding="20sp"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="60sp"
+        />
+
+
+    <EditText
+        android:id="@+id/costPrice"
+        android:padding="20sp"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:inputType="number"
+        android:hint="Cost Price"
+        android:background="@drawable/rounded_white"/>
+
+    <Spinner
+        android:id="@+id/gst"
+        android:padding="20sp"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="60sp" />
+
+
+
+    <EditText
+        android:id="@+id/totalCp"
+        android:padding="20sp"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="60sp"
+        android:hint="Total Cost Price"
+        android:background="@drawable/rounded_white"/>
+
+    <EditText
+        android:id="@+id/wholesalePrice"
+        android:padding="20sp"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="60sp"
+        android:hint="Wholesale Price"
+        android:background="@drawable/rounded_white"/>
+
+    <EditText
+        android:id="@+id/retailPrice"
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="20sp"
+        android:inputType="number"
+        android:hint="Retail Price"
+        android:background="@drawable/rounded_white"/>
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        android:onClick="update"
+        android:text="Update"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        android:onClick="delete"
+        android:text="Delete"
+        android:background="@drawable/rounded_button"/>
+
+</LinearLayout>
+
+</ScrollView>

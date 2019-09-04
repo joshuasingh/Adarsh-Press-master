@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Adarsh Press</string>
+
+    <string-array name="units">
+        <item>Select Unit</item>
+        <item>pieces</item>
+        <item>kg</item>
+        <item>packets</item>
+    </string-array>
+
+    <string-array name="gst">
+        <item>Select GST</item>
+        <item>0%</item>
+        <item>5%</item>
+        <item>12%</item>
+        <item>18%</item>
+        <item>28%</item>
+    </string-array>
+</resources>

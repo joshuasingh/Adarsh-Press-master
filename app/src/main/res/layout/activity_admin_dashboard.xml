@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/artboard_1"
+    tools:context=".AdminDashboard">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/colorPrimary"
+        app:title="Admin Dashboard"
+        app:titleMarginStart="30sp"
+        app:titleTextColor="@color/white"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="150sp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/rounded_button"
+        android:onClick="addItems"
+        android:padding="20sp"
+        android:textSize="15sp"
+        android:text="Add Items" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Items"
+        android:padding="20sp"
+        android:layout_margin="20sp"
+        android:background="@drawable/rounded_button"
+        android:onClick="viewItems"
+        />
+
+
+    </LinearLayout>
+</RelativeLayout>
